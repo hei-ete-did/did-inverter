@@ -1,0 +1,101 @@
+Internal Error: Unexpected signal 'Segmentation Fault' encountered
+Information about the problem which has just occurred will follow
+this message and will be placed in file /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_user-linux/logs/HDS_log.txt
+Once the application has terminated, please forward this information
+to customer support - for details please re-invoke the application
+and choose the menu item: Help> Support> How To Obtain Support
+Application HDL Designer version 2019.3 (Build 4)
+Created on 10/06/21 12:34:03
+HDL Designer Series
+HDL Designer
+Version 2019.3 (Build 4) 
+Built on Tue Jul 16 2019 at 2:33
+Verilog parser dynamic library version 5.1.42.f ( 2019/07/16 00:55:40 )
+Running on Linux 5.11.0-37-generic #41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021 x86_64
+
+Loading HDS Project file via Environment variable $HDS_LIBS /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds.hdp
+Loading prefs env variable USER_HOME /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_user-linux
+Loading teamprefs env variable TEAM_HOME /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_team
+Loading user Task files from '/home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_user-linux/v2019.3/tasks'.
+Loading team Task files from '/home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_team/v2019.3/tasks'.
+
+HDS_HOME is set to : /usr/opt/HDS
+
+Environment variables:
+HDS_HOME set to /usr/opt/HDS
+HDS_USER_HOME set to /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_user-linux
+HDS_TEAM_HOME set to /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds_team
+HDS_LIBS set to /home/francois/Documents/HEVs/ElN/ElN_inverter/Prefs/hds.hdp
+HDS_PORT set to Hyperion:36595
+10 events recorded:
+ChangeCptPortOut
+Save
+ViewAll
+Save
+UpdateFromSymbol
+ViewAll
+Save
+ViewArea
+ViewAll
+EditGenericDecl
+
+(0) 31ed6e5
+(1) 31ed872
+(2) 7f45772b7210
+(3) 2b9b447
+(4) 3fc3efe
+(5) 3837502
+(6) 3af7f95
+(7) 36d9cba
+(8) 36d96f6
+(9) 4b92acd
+(10) 4aedfcc
+(11) 4afb658
+(12) 4afb55e
+(13) 7f4579b02a47
+(14) 7f4579b05e76
+(15) 7f4579a86bd3
+(16) 7f4579b51ac8
+(17) 7f45797b6a0d
+(18) 7f45797b6e75
+(19) 7f45797b7b3d
+(20) 7f457978fe52
+(21) 7f457979083d
+(22) 7f4579790919
+(23) 4afa2fc
+(24) 4afa1b5
+(25) 1832e32
+(26) 1831558
+(27) 4b5bc8e
+(28) 7f45772980b3
+(29) 18303f9
+/usr/opt/HDS/bin/hdldesigner(_ZN16TracebackHandler6reportEv+0x35)[0x31ed6e5]
+/usr/opt/HDS/bin/hdldesigner(_ZN16TracebackHandler13signalHandlerEi+0x110)[0x31ed872]
+/lib/x86_64-linux-gnu/libc.so.6(+0x46210)[0x7f45772b7210]
+/usr/opt/HDS/bin/hdldesigner(_ZN20BdEditGenericDeclCmd9doExecuteEv+0x3c5)[0x2b9b447]
+/usr/opt/HDS/bin/hdldesigner(_ZN7Command7executeEv+0xd8)[0x3fc3efe]
+/usr/opt/HDS/bin/hdldesigner(_ZN14CondCallbackOpI7CommandE9doExecuteEv+0x98)[0x3837502]
+/usr/opt/HDS/bin/hdldesigner(_ZN9Operation7executeEb+0x1fd)[0x3af7f95]
+/usr/opt/HDS/bin/hdldesigner(_ZN13NewCvMenuItem7executeEv+0xd4)[0x36d9cba]
+/usr/opt/HDS/bin/hdldesigner(_ZN13NewCvMenuItem8selectedEP9VMenuItem+0x1c)[0x36d96f6]
+/usr/opt/HDS/bin/hdldesigner(_ZN7VObject7performEMS_FlvEl+0x79)[0x4b92acd]
+/usr/opt/HDS/bin/hdldesigner(_ZN9VMenuItem8selectedEv+0x70)[0x4aedfcc]
+/usr/opt/HDS/bin/hdldesigner(_ZN9VNotifier19menuItemSelectEventEP9VMenuItemi+0xf2)[0x4afb658]
+/usr/opt/HDS/bin/hdldesigner(NotifierMenuItemSelect+0x49)[0x4afb55e]
+/lib/x86_64-linux-gnu/libXm.so.4(+0x12ba47)[0x7f4579b02a47]
+/lib/x86_64-linux-gnu/libXm.so.4(+0x12ee76)[0x7f4579b05e76]
+/lib/x86_64-linux-gnu/libXm.so.4(_XmDispatchGadgetInput+0x103)[0x7f4579a86bd3]
+/lib/x86_64-linux-gnu/libXm.so.4(_XmMenuBtnUp+0x218)[0x7f4579b51ac8]
+/lib/x86_64-linux-gnu/libXt.so.6(+0x48a0d)[0x7f45797b6a0d]
+/lib/x86_64-linux-gnu/libXt.so.6(+0x48e75)[0x7f45797b6e75]
+/lib/x86_64-linux-gnu/libXt.so.6(_XtTranslateEvent+0x52d)[0x7f45797b7b3d]
+/lib/x86_64-linux-gnu/libXt.so.6(XtDispatchEventToWidget+0x1c2)[0x7f457978fe52]
+/lib/x86_64-linux-gnu/libXt.so.6(+0x2283d)[0x7f457979083d]
+/lib/x86_64-linux-gnu/libXt.so.6(XtDispatchEvent+0xc9)[0x7f4579790919]
+/usr/opt/HDS/bin/hdldesigner(_ZN9VNotifier11messageLoopE10LoopReason+0x130)[0x4afa2fc]
+/usr/opt/HDS/bin/hdldesigner(_ZN9VNotifier5startEv+0x31)[0x4afa1b5]
+/usr/opt/HDS/bin/hdldesigner(_ZN20Gen_RenoirAppStarterC1Ev+0x520)[0x1832e32]
+/usr/opt/HDS/bin/hdldesigner(_Z6cvmainiPPc+0xae)[0x1831558]
+/usr/opt/HDS/bin/hdldesigner(main+0x956)[0x4b5bc8e]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f45772980b3]
+/usr/opt/HDS/bin/hdldesigner[0x18303f9]

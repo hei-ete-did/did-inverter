@@ -1,0 +1,74 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+Board = $SCRATCH_DIR/$DESIGN_NAME/Board/work
+CommandLine = $SCRATCH_DIR/Libraries/CommandLine/work
+CommandLine_test = $SCRATCH_DIR/Libraries/CommandLine_test/work
+Common = $SCRATCH_DIR/Libraries/Common/work
+Common_test = $SCRATCH_DIR/Libraries/Common_test/work
+Cordic = $SCRATCH_DIR/Libraries/Cordic/work
+Cordic_test = $SCRATCH_DIR/Libraries/Cordic_test/work
+gates = $SCRATCH_DIR/Libraries/gates/work
+Inverter = $SCRATCH_DIR/$DESIGN_NAME/Inverter/work
+Inverter_test = $SCRATCH_DIR/$DESIGN_NAME/Inverter_test/work
+io = $SCRATCH_DIR/Libraries/IO/work
+Lattice = $SCRATCH_DIR/Libraries/Lattice/work
+Memory = $SCRATCH_DIR/Libraries/Memory/work
+Memory_test = $SCRATCH_DIR/Libraries/Memory_test/work
+operators = $SCRATCH_DIR/Libraries/Operators/work
+RS232 = $SCRATCH_DIR/Libraries/RS232/work
+RS232_test = $SCRATCH_DIR/Libraries/RS232_test/work
+sequential = $SCRATCH_DIR/Libraries/sequential/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+CommandLine = $HEI_LIBS_DIR/CommandLine/hdl
+CommandLine_test = $HEI_LIBS_DIR/CommandLine_test/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+Cordic = $HEI_LIBS_DIR/Cordic/hdl
+Cordic_test = $HEI_LIBS_DIR/Cordic_test/hdl
+gates = $HEI_LIBS_DIR/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+Inverter = $HDS_PROJECT_DIR/../Inverter/hdl
+Inverter_test = $HDS_PROJECT_DIR/../Inverter_test/hdl
+io = $HEI_LIBS_DIR/IO/hdl
+Lattice = $HEI_LIBS_DIR/Lattice/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+Memory_test = $HEI_LIBS_DIR/Memory_test/hdl
+operators = $HEI_LIBS_DIR/Operators/hdl
+RS232 = $HEI_LIBS_DIR/RS232/hdl
+RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+sequential = $HEI_LIBS_DIR/Sequential/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+CommandLine = $HEI_LIBS_DIR/CommandLine/hds
+CommandLine_test = $HEI_LIBS_DIR/CommandLine_test/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+Cordic = $HEI_LIBS_DIR/Cordic/hds
+Cordic_test = $HEI_LIBS_DIR/Cordic_test/hds
+gates = $HEI_LIBS_DIR/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+Inverter = $HDS_PROJECT_DIR/../Inverter/hds
+Inverter_test = $HDS_PROJECT_DIR/../Inverter_test/hds
+io = $HEI_LIBS_DIR/IO/hds
+Lattice = $HEI_LIBS_DIR/Lattice/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+Memory_test = $HEI_LIBS_DIR/Memory_test/hds
+operators = $HEI_LIBS_DIR/Operators/hds
+RS232 = $HEI_LIBS_DIR/RS232/hds
+RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+sequential = $HEI_LIBS_DIR/Sequential/hds
+std = $HDS_HOME/hdl_libs/std/hds
+[hds_settings]
+design_root = Board.EBS3(struct)@e@b@s3/struct.bd
+[library_files_inclusion]
+Lattice = all
+[library_type]
+Board = regular
+ieee = standard
+Lattice = regular
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

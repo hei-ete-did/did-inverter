@@ -1,0 +1,2 @@
+DEFAULT_FILE atom uart@control/struct.bd
+DEFAULT_ARCHITECTURE atom struct

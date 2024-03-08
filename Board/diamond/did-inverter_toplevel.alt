@@ -1,0 +1,37 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Apr 05 14:44:23 2023 *
+NOTE DESIGN NAME: EBS3 *
+NOTE DEVICE NAME: LFE5U-25F-6CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS LED1 : T14 : out *
+NOTE PINS TxD : B14 : in *
+NOTE PINS trigger : G3 : out *
+NOTE PINS pwm2Low_n : C1 : out *
+NOTE PINS pwm2High : B6 : out *
+NOTE PINS pwm1Low_n : D1 : out *
+NOTE PINS pwm1High : E1 : out *
+NOTE PINS heartbeat : T15 : out *
+NOTE PINS adcClock : A8 : out *
+NOTE PINS RxD : A14 : out *
+NOTE PINS LEDs_n[1] : K5 : out *
+NOTE PINS LEDs_n[2] : L5 : out *
+NOTE PINS LEDs_n[3] : M5 : out *
+NOTE PINS LEDs_n[4] : A13 : out *
+NOTE PINS LEDs_n[5] : B12 : out *
+NOTE PINS LEDs_n[6] : B10 : out *
+NOTE PINS LEDs_n[7] : A10 : out *
+NOTE PINS LEDs_n[8] : A9 : out *
+NOTE PINS LED2 : R14 : out *
+NOTE PINS reset_n : E13 : in *
+NOTE PINS clock : K16 : in *
+NOTE PINS buttons_n[2] : E5 : in *
+NOTE PINS buttons_n[3] : E8 : in *
+NOTE PINS buttons_n[4] : H5 : in *
+NOTE PINS SYSCONFIG_PIN_D3 : N7 : inout *
+NOTE PINS SYSCONFIG_PIN_D1 : T7 : inout *
+NOTE PINS SYSCONFIG_PIN_D2 : M7 : inout *
+NOTE PINS SYSCONFIG_PIN_D0 : T8 : inout *
+NOTE PINS SYSCONFIG_PIN_HOLDN : N8 : inout *
+NOTE CONFIGURATION MODE: SPI_QUAD *
+NOTE COMPRESSION: off *
