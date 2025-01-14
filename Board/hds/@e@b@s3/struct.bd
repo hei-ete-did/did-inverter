@@ -482,23 +482,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hdl"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd.info"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd.user"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -518,27 +518,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\EBS3"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\EBS3"
 )
 (vvPair
 variable "date"
-value "05.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "mer."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "05"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -562,11 +562,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "05.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -574,11 +574,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:17:44"
+value "16:44:45"
 )
 (vvPair
 variable "group"
@@ -586,7 +586,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -606,7 +606,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Board/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -614,19 +614,19 @@ value "EBS3"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s3\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\EBS3\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\EBS3\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -654,7 +654,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:17:44"
+value "16:44:45"
 )
 (vvPair
 variable "unit"
@@ -662,7 +662,7 @@ value "EBS3"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -674,11 +674,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -7099,8 +7099,7 @@ va (VaSet
 )
 xt "162000,129400,191900,131800"
 st "divideValue = positive(clockFrequency)    ( positive )  
-delay       = gateDelay                   ( time     )  
-"
+delay       = gateDelay                   ( time     )  "
 )
 header ""
 )
@@ -11852,8 +11851,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-1067,-1829,270147,145528"
+windowSize "-1928,-259,8,789"
+viewArea "-1100,-1800,274384,146587"
 cachedDiagramExtent "2000,0,206100,142000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -11877,7 +11876,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2118,0
+lastUid 2191,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

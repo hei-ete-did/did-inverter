@@ -51,23 +51,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hdl"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd.info"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd.user"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds"
 )
 (vvPair
 variable "appl"
@@ -87,15 +87,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic"
 )
 (vvPair
 variable "date"
-value "04.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
@@ -107,7 +107,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "04"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -131,11 +131,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "04.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -143,11 +143,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:25:15"
+value "16:46:33"
 )
 (vvPair
 variable "group"
@@ -155,7 +155,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -171,7 +171,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Inverter/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -179,19 +179,19 @@ value "cordic"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter\\hds\\cordic\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -219,7 +219,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:25:15"
+value "16:46:33"
 )
 (vvPair
 variable "unit"
@@ -227,7 +227,7 @@ value "cordic"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -239,11 +239,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -529,7 +529,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Verdana,8,0"
 )
-xt "29200,48000,41600,49000"
+xt "29200,48000,43600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1676,8 +1676,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-9124,-686,84713,50299"
+windowSize "-1928,-259,8,789"
+viewArea "-9100,-700,84840,49900"
 cachedDiagramExtent "-14500,0,66000,49000"
 pageSetupInfo (PageSetupInfo
 toPrinter 1
@@ -1696,7 +1696,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-8000,0"
-lastUid 1014,0
+lastUid 1041,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

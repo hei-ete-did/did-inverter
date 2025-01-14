@@ -68,23 +68,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hdl"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd.info"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd.user"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -104,27 +104,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\nonOverlap_tb"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\nonOverlap_tb"
 )
 (vvPair
 variable "date"
-value "12.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "mer."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "12"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -152,11 +152,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "12.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -164,11 +164,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:31:22"
+value "16:48:50"
 )
 (vvPair
 variable "group"
@@ -176,7 +176,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -200,7 +200,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Inverter_test/work"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -208,19 +208,19 @@ value "nonOverlap_tb"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\non@overlap_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\nonOverlap_tb\\struct.bd"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Inverter_test\\hds\\nonOverlap_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -292,7 +292,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:31:22"
+value "16:48:50"
 )
 (vvPair
 variable "unit"
@@ -300,7 +300,7 @@ value "nonOverlap_tb"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -312,11 +312,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -405,7 +405,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "45200,83400,61300,84600"
+xt "45200,83400,63000,84600"
 st "
 by %user on %dd %month %year
 "
@@ -1025,8 +1025,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,16300,800"
-st "SIGNAL reset    : std_ulogic
-"
+st "SIGNAL reset    : std_ulogic"
 )
 )
 *27 (Net
@@ -1043,8 +1042,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,16400,800"
-st "SIGNAL clock    : std_ulogic
-"
+st "SIGNAL clock    : std_ulogic"
 )
 )
 *28 (Net
@@ -1061,8 +1059,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,16900,800"
-st "SIGNAL driveEn  : std_ulogic
-"
+st "SIGNAL driveEn  : std_ulogic"
 )
 )
 *29 (Net
@@ -1079,8 +1076,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,17000,800"
-st "SIGNAL pwmIn    : std_ulogic
-"
+st "SIGNAL pwmIn    : std_ulogic"
 )
 )
 *30 (Net
@@ -1097,8 +1093,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,18100,800"
-st "SIGNAL pwmOut_n : std_ulogic
-"
+st "SIGNAL pwmOut_n : std_ulogic"
 )
 )
 *31 (Net
@@ -1115,8 +1110,7 @@ va (VaSet
 isHidden 1
 )
 xt "0,-400,17500,800"
-st "SIGNAL pwmOut   : std_ulogic
-"
+st "SIGNAL pwmOut   : std_ulogic"
 )
 )
 *32 (Wire
@@ -1463,8 +1457,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1048"
-viewArea "-8435,17584,118740,86681"
+windowSize "-1928,-259,8,789"
+viewArea "-8400,17600,119700,86600"
 cachedDiagramExtent "-7000,-400,91000,85000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -1488,7 +1482,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 2466,0
+lastUid 2501,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

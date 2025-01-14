@@ -636,23 +636,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hdl"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb.info"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb.user"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -672,15 +672,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\EBS2"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\EBS2"
 )
 (vvPair
 variable "date"
-value "04.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
@@ -692,7 +692,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "04"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -720,11 +720,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "04.04.2023"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -732,11 +732,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:19:42"
+value "16:44:49"
 )
 (vvPair
 variable "group"
@@ -744,7 +744,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -776,7 +776,7 @@ value "U:\\ELN_chrono\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "04"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -784,19 +784,19 @@ value "EBS2"
 )
 (vvPair
 variable "month"
-value "avr."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "avril"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\@e@b@s2\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\did-inverter\\Prefs\\..\\Board\\hds\\EBS2\\symbol.sb"
+value "C:\\dev\\DiD\\did-inverter\\Prefs\\..\\Board\\hds\\EBS2\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -868,7 +868,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:19:42"
+value "16:44:48"
 )
 (vvPair
 variable "unit"
@@ -876,7 +876,7 @@ value "EBS2"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -888,11 +888,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2023"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "23"
+value "25"
 )
 ]
 )
@@ -2284,7 +2284,7 @@ xt "0,7800,0,7800"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1812,0
+lastUid 1835,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
